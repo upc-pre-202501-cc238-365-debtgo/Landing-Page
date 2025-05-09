@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lavanda: #9B6CF0;
+    --lavanda-profunda: #7960F2;
+    --lavanda-suave: #998EF7;
+    --gris-suave: #F3F3FF;
+    --gris-oscuro: #3D3D3D;
+    --gris-medio: #939393;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li,
+ul,
+ol {
+    list-style: none;
+}
+
+button,
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+
+.gradient1 {
+    background: linear-gradient(to bottom, var(--lavanda-profunda), var(--lavanda));
+
+}
+
+.gradient2 {
+    background: linear-gradient(to bottom, var(--lavanda), var(--lavanda-profunda));
+}
+
+.gradient3 {
+    background: linear-gradient(to bottom, #fff, var(--gris-suave));
+}
+
+.gradient4 {
+    background: linear-gradient(to bottom, var(--gris-suave), #fff);
+}
+
+.button1 {
+    background: var(--lavanda-suave);
+    color: #fff;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+
+.button2 {
+    background: #fff;
+    color: var(--lavanda-suave);
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
